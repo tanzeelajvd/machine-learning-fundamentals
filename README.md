@@ -1,4 +1,4 @@
-# Machine Learning Fundamentals (Undergraduate)
+# Machine Learning Fundamentals
 
 This repository contains **core undergraduate-level study material for Machine Learning**, combining **theoretical foundations** with **hands-on implementations**.
 
