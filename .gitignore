@@ -1,78 +1,13 @@
-# ==================================================
-# Python
-# ==================================================
-__pycache__/
-*.py[cod]
-*.pyd
-*.pyo
 
-# Virtual environments
-env/
-venv/
-.venv/
-
-# ==================================================
-# Jupyter Notebooks
-# ==================================================
 .ipynb_checkpoints/
-*.nbconvert.ipynb
-
-# ==================================================
-# Machine Learning Artifacts (Generated)
-# ==================================================
-# Trained models (add back selectively if needed)
-*.pkl
-*.joblib
-*.h5
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Generated outputs
-outputs/
-results/
-logs/
-
-# ==================================================
-# Data (Generated / Intermediate)
-# ==================================================
-data_processed/
-features/
-temp/
-cache/
-
-# ==================================================
-# Image / Video Outputs (Generated)
-# ==================================================
-activation_plots/
-activation_videos/
-
-# ==================================================
-# OS Files
-# ==================================================
+__pycache__/
+*.pyc
+.env
 .DS_Store
+*Zone.Identifier
+.venv
+data/raw/
+data/temp/
 Thumbs.db
-desktop.ini
-
-# ==================================================
-# Editors / IDEs
-# ==================================================
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# ==================================================
-# Environment / Secrets
-# ==================================================
-.env
-.env.*
-secrets/
-config.yaml
-
-# ==================================================
-# WSL / Linux
-# ==================================================
-.nfs*
